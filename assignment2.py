@@ -2,8 +2,8 @@ def random_name():
     import random
     import string
 
-    first_name = ''.join(random.choice(string.ascii_lowercase) for _ in range(random.randint(7, 11))).capitalize()
-    last_name = ''.join(random.choice(string.ascii_lowercase) for _ in range(random.randint(7, 11))).capitalize()
+    first_name = ''.join(random.choice(string.ascii_lowercase) for _ in range(random.randint(8, 12))).capitalize()
+    last_name = ''.join(random.choice(string.ascii_lowercase) for _ in range(random.randint(8, 12))).capitalize()
     return first_name, last_name
 
 def random_age():
