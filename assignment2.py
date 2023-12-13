@@ -1,14 +1,12 @@
+import random
+import string
 def random_name():
-    import random
-    import string
-
     first_name = ''.join(random.choice(string.ascii_lowercase) for _ in range(random.randint(8, 12))).capitalize()
     last_name = ''.join(random.choice(string.ascii_lowercase) for _ in range(random.randint(8, 12))).capitalize()
     return first_name, last_name
 print(random_name())
 
 def random_age():
-    import random
     return random.randint(18, 81)
 print(random_age())
 
