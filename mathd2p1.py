@@ -9,5 +9,7 @@ def answer(limit):
 
     return total
 
-result = answer(4000000)
-print(result)
+if __name__ == "__main__":
+    result = answer(4000000)
+    print(result)
+
