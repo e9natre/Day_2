@@ -12,7 +12,8 @@ def solver(start, end, even=False, odd=False):
         if start <= term <= end:
             if (even and term % 2 == 0) or (odd and term % 2 != 0):
                 result += term
+    
+    return result
        
 if __name__ == "__main__": 
-    return result
-print(solver(start=15812, end=91581312, even=False, odd=True))
+    print(solver(start=15812, end=91581312, even=False, odd=True))
