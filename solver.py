@@ -7,4 +7,5 @@ def solver(factors, start, end):
                 break
     return sum
 
+
 print(solver([4, 7, 11], 8912, 40512))

@@ -1,5 +1,5 @@
 def answer(limit):
-    a,b = 1,2
+    a, b = 1, 2
     total = 0
 
     while a <= limit:
@@ -9,7 +9,7 @@ def answer(limit):
 
     return total
 
+
 if __name__ == "__main__":
     result = answer(4000000)
     print(result)
-
